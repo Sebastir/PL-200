@@ -1,0 +1,161 @@
+Q1. You need to display the statecode field data from the opportunities table in a canvas app gallery.
+ The gallery is embedded in the Power BI dashboard.
+
+A1. ‘PowerBIIntegration’.data
+
+Q2. You need to use Microsoft Power Fx to create formulas in a canvas app.
+A2. Declarative
+
+Q3. You need to ensure that the business rules run on the server side?
+A3. Business rules runs on the server side when the scope is configured as Entity.
+
+q4. Cloud flow searches two columns in a table by using the Search rows action. Dataverse search does not return any results.
+Reset filter conditions for the column.
+
+q5. You need to configure Quick Find View so the Relationship column appears in the filter pane when users search for accounts.
+View columns
+
+q6. When users view contacts for an account by navigating to the Related tab, they do not see the Job Title column in the default view.
+Associated
+
+q7. You must perform a calculation on the blood pressure screen to display a score result to the user. You must use a variable for only the blood pressure screen.
+UpdateContext
+
+q8. You need to ensure that an item selected in gallery1 is populated in form1.
+Set the Item property of form1 to gallery1.selected.
+
+q9. The company requires the app to be offline-capable.
+A collection is used to store data locally on the device even when there is no network connectivity to the data source
+
+q10. You need to provision a new Power Pages in the environment.(which role shoud you have)
+system admin
+
+q11. The chatbot must continue responding to user questions even when it does not understand the intent of the user.
+fallback topic - when no topic matches user input
+
+q12. As part of the chatbot, members must be able to report bird sightings. An attribute you want to collect is approximate flying speed of the bird.
+prebuilt-entity (A prebuilt entity for speed can recognize speed entered in the chatbot and store it appropriately. )
+
+q13. The company plans to allow five days for task assignments. If an assignee does not complete an assigned task within the five days, the task must be assigned to the assignee’s manager.
+Set the Wait for an approval action timeout setting to P5D.
+Use a parallel branch action.
+Configure a Start an approval action to run after the previous action times out.
+
+q14. Initiate a prompt to capture venue contact information.
+     Send an email from the company Office 365 email account to the customer.
+Use a condition component to capture contact information, and a flow step to send an email.
+
+q15. You must perform complex calculations with the app.
+You need to ensure that users cannot enter data while calculations are performed.
+classic workflow
+
+q16. You plan to use a bulk delete job that runs on a recurring schedule.
+daily
+
+q17. contacts who attend the event
+the capacity in which a contact attends, such as customer, vendor, supplier, or from marketing
+
+custom intersect table with two 1:N relationships (to capture additional info)
+
+q18. The user must create apps but lacks the security permissions to create the apps.
+system customizer
+
+q19. Users require privileges only on non-custom tables in the environment.
+basic user
+
+q20. You share the app with users. The users are unable to view records in the custom tables included in the app.
+Add users to a custom security role that has custom table permissions.
+
+q21. You need to create a relationship between the attendees and registrations.
+two 1:N relationships, one with Contact as the parent and one with Course as the parent
+
+q22. You need to create a custom bulk deletion job that deletes workflow records from the AsyncOperationBase table. The records must have been created in the last seven days and successfully completed.
+Workflow
+
+q23. You need to create a new column for a custom table. The new column must have the schema name abc_income.
+new publisher
+
+q24. The publisher of a solution where a component is created is considered the owner of that component and determines the prefix used on the name of a component.
+publisher
+
+q25. The product within the solution must be applied as a third-party component to other environments.
+managed solution with custom publisher
+
+q26. The app uses aTeam owner
+
+Microsoft SharePoint Online list as data source. The app must use a different data source in the development environment than what is used in the production environment.
+environment variable
+
+q27. Permissions needed. Ask your IT admin to add [app name] to this team/chat/meeting.
+Modify the Teams policies.
+
+q28. You need to move the app to a different Dataverse for Teams environment.
+Power Apps personal app
+
+q29. You create an app that uses Microsoft Dataverse for Teams to capture employee feedback information.
+You need to configure access to the tables within the app and share with the entire company.
+
+Team owner
+
+q30. Users must capture whether a donor donated blood previously. If the donor has, you must fill out a Donor ID column value. You use a business rule to enforce this.
+Set the business rule scope to Entity.
+
+q31. You need to provision a new Power Pages in the environment.
+system administrator
+
+q32. The workflow is failing to run and is set in a state of Waiting. You observe that the account of the workflow owner is deactivated.
+Update the workflow owner and cancel the previous runs in the Waiting state.
+
+q33. Users must receive a warning message when they try to save a contact that matches an existing contact record. A match in one of the following columns must trigger the message:
+First name, telephone, email
+Three
+
+q34 A user requires access to a customized environment. The following error appears when you attempt to add the user: “User couldn’t be added because they haven’t met all of the access requirements.”
+The user’s account does not have a license.
+The user is not a member of the environment’s security group.
+The user’s account is not enabled in Microsoft Entra ID.
+
+q35. You need to configure search so that the Account Number column is searched when users query for accounts using global search.
+quick find view
+
+q36. You use Microsoft Entra ID Group teams to handle user security access to a Microsoft Dataverse application.
+Microsoft Entra ID Group ID
+
+q37. The company wants external customers to be able to access and view the report. The report must be embedded in a Power Pages deployment to provide this capability for customers.
+Power BI Premium Per Capacity
+
+q38. A user needs to add a tile from a Power BI dashboard to the model-driven app.
+Microsoft Dynamics 365 user dashboard
+
+q39. You need to set the action to navigate to the default view of the Accounts table.
+Navigate (Accounts)
+
+q40. You need to assess which objects require the Projects table.
+Dependencies
+
+q41. The company wants to add Terms of Use information using native functionality.
+canvas app added to Microsoft Teams
+
+q42. The company is implementing a Microsoft Power Virtual Agents chatbot. The chatbot must understand which products the company offers.
+Create a custom entity to hold products.
+
+q43. Users require a new table to store projects and related tasks.
+Enable for activities
+
+q45 The user must create apps but lacks the security permissions to create the apps.
+system customizer
+
+q46 You need to require users to enter data in the Review field before they move to stage four if the opportunity value is over a specific amount.
+Use a business rule to set Review as required.
+
+q47 You need to define the days of the week to import the data and ensure that you are notified of any failures.
+dataflow
+
+q48 Human resources (HR) managers and HR employees have access to the employee data. Edit access to sensitive data must be granted to only managers. Other HR employees must be able to read all data but not edit any data.
+Configure field-level security.
+
+q49 If the item does not contain a value in the OrderNumber column, the flow must generate a value.
+Empty
+
+q50 You need to update the components in a solution by using merge behavior.
+Model-driven app

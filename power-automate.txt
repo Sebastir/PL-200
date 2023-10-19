@@ -1,0 +1,7 @@
+Business Process Flow
+A table with which the business process flow will be associated.
+ If the business process flow isn't related to an existing table, create a new table before you create the flow.
+
+Guidelines for business process flows that have branches
+- A process can span a maximum of five unique entities.
+- You can use a maximum of 30 stages per process and a maximum of 30 steps per stage.

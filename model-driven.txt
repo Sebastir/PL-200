@@ -1,0 +1,70 @@
+model-driven apps, the layout is based on the components that you add to the app.
+Designing a model-driven app comprises:
+-  pages
+    Table based view and form
+    Dashboard
+    Custom
+-  navigation
+    Group: Asset Checkout
+    Subarea: Products (Subarea 1) / Reservation (Subarea 2) / Reviews (Subarea 3)
+    Pages: Product (form) - Product (view) - Product (Dashboard)
+-  data
+    Relationships set between tables are automatically available here and easy to use when building views.
+-  automation
+    You can create business process flows
+
+
+Model-driven apps start with your
+1. Modelling data model,
+2. Define business processes in Dataverse
+3. Model forms, views, and other componen
+ts (Compose the app)
+
+Model-drive-app >> Pages >> Form
+
+ Forms allow users to interact with the data where they need to work.
+ Types of Form
+ 1. Main: Wide range of options allowed (Creat, add, delete). Design one per table and deploy everywhere.
+ 2. Quick Create: Data entry experience, to create a new or add new item. Common data is mapped. Concact Creation from Account Form (data about account is already added)
+ 3. Quick View: display additional info of a record (granular details). Works along with Main (is a form within a form)
+ 4. Card Form: Present information in compact way. Data is stored in cards in two cases:  Related entity (Cases -- Account), or interactive Dashboard
+
+
+Form Elements
+Header
+Body
+  Tabs contains sections
+Footer
+
+The table columns added to your form become form fields
+Components allow you the ability to further customize your form.
+We can define security roles for the form controlling things like access, form order, and fallback forms.
+The Form order allows you to determine which form appears first and next depending on the security role.
+Each table must have a designated fallback form.
+Fallback forms are only available with main forms
+
+Form Event Handlers
+Form
+  OnLoad	Occurs when the form loads.
+  OnSave	Occurs when data is saved.
+Tab
+  TabStateChange	Occurs when the tab is expanded or collapsed.
+Column
+  OnChange	Occurs when data in the column changes and the control loses focus.
+IFrame
+  OnReadyStateComplete	Occurs when the content of an IFrame loads.
+
+For Components
+Grid controls
+  read-only subgrid
+  editable grid
+  Power App grid control
+Display Controls
+  Display information in your app that isn't directly related to table data (Calendar, Canvas App, Web Sources, Knowledge search)
+Iframes can be added to the form by inserting an External website display control onto the form and inputting a URL. (you can configured how it renders)
+
+Quick View (displays data from a row that is selected in a lookup on primary column in the form)
+Timeline control (The timeline helps app users see all activity history). Example includes: notes, appointments, emails, phone calls, and tasks.
+
+Views
+One way for users to consume data

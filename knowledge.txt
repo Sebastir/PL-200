@@ -1,0 +1,65 @@
+
+The prefix used in a field name is determined by the publisher associated with a solution
+The publisher must be created before the solution.
+You should use a managed solution when the components within the solution will be used as a third-party component in other environments.
+Power Apps Studio is used for creating and modifying apps, but not to export them.
+To configure Dataverse for Teams table security for user access across the wider company, the user must have the Teams owner role for the team.
+A dataflow is used to import data into Dataverse and has native capabilities to send failure notifications.
+
+Securty role
+The system customizer role allows users to create apps within the environment.
+The service writer role gives full permissions on all tables.
+The office collaborator role gives read permission to tables in which a record from these tables is shared with the organization.
+The office collaborator role gives read permission to tables in which a record from these tables is shared with the organization.
+
+Business Rules
+Setting the scope to Entity enforces this behavior within the canvas app as well as any model-driven apps
+Cascade User Owned updates records at both primary and related levels to the new owner but does not affect existing records owned by other users.
+
+Business Process
+Action Step can be used to execute an action or workflow on demand.
+ Each stage contains a group of steps.
+  The exact step that can be used to trigger a workflow is the Action step.
+   The branching condition can be formed from multiple logical expressions that use a combination of AND/OR operators.
+    It cannot be used to trigger a workflow. Data Step inside a stage can be used to make a step required.
+
+Relationship
+The cascade relationship behavior will assure that all related rows are removed when the parent row is removed.
+ For or conditions, separate rules are needed.
+
+Tables
+The Enable for activities option allows activities, such as tasks, and emails, to be connected to the table.
+A business rule can conditionally change the requirement level of a field.
+
+Portal Access
+A user must have one or more web roles to access protected content.
+Before usAuthenticated users must have a web role assigned to them to be able to access pages and data within a Power Pages.ers can access protected content, they must authenticate by using a configured identity provider.
+Web pages are assigned to web roles to give roles access to them
+Authenticated users must have a web role assigned to them to be able to access pages and data within a Power Pages.
+
+Power Automate
+The TriggerOutputs() function is used whenever you need to access anything from within the body in addition to info from the header.
+The triggerFormDataValue() function is used to return a single value matching a key name in form-data or form-encoded trigger outputs.
+The triggerBody() function is a referencing function that lets you fetch attributes from the body of the trigger.
+ The result() function is used to return the inputs and outputs from the top-level actions inside the specified scoped action, such as For_each, Until, and Scope.
+
+Virtual Agents
+Azure Bot Framework bots need to be added to the allowlist for them to use the Power Virtual Agents chatbot skills within them.
+Sharing is used to specify other users for bot collaboration.
+Authentication is used to configure the chatbot to verify a user’s identity.
+Web channel security allows you to set up security for facilitating communications between the chatbot and applications.
+Allowed caller configuration is used to include bots that are authorized to use your bot as a skill.
+Skills are used to call another bot in the original bot.
+A channel is used to publish the chatbot to the customer.
+Agent transfer configuration is used to send chat sessions to a live agent in case the chatbot is unable to answer customer queries.
+Entities in chatbots allow the bot to identify objects and terminology entered by the user.
+Topics determine the conversation that a user has with a bot. For example, a topic would prompt the user to choose a product but is not used to hold the product information.
+Variables are used to hold responses given by the user in memory to be able to use them later in the conversation.
+Skills are bots that can be used by other bots.
+
+Power BI
+The company should deploy Power BI Premium Per Capacity because it allows reports to be published for consumption by external customers.
+The only place where a Power BI tile can be added in a model-driven app is a Dynamics 365 user dashboard.
+
+Canvas App
+To navigate to a default view of a table, you should use the Navigate command and pass in just the table name as the only argument.
