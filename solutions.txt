@@ -1,0 +1,46 @@
+Solutions are the Microsoft Power Platform mechanism for implementing application lifecycle management (ALM) for:
+ Power Apps, Power Automate, and Power Virtual Agents.
+You can only create solutions in a Microsoft Power Platform environment with Microsoft Dataverse set up.
+A good built-in security role that would give them that ability is the Environment Maker role.
+ However, you can also use or create a custom security role.
+A good built-in role for run-only use would be the Basic User role.
+ Using source control with solutions will support a single source of truth
+ and will improve your ability to manage collaboration on the collection of resources that are managed by the solution.
+ When creating a new solution, make sure that you give it a unique name and associate it with a solution publisher.
+
+ Connection references
+  help make cloud flows in solutions easier to transport between Microsoft Power Platform environments
+Good ALM practices call for only editing the flow definition in a dev env and not in downstream envs, such as test and Prod.
+Connection references are solution components that contain information about a connector.
+By pre-creating connection references in your solution, you can have control over the naming.
+
+Before removing or deleting connection references, you should check if anything is using the connection reference.
+ To do so, select the connection reference and then select Show dependencies.
+ you'll need to edit each dependent component and remove their use of the connection reference before you can delete it.
+
+ Env Variables
+ After the env variable values have been defined, cloud flows can replace hard-coded content with env variable values.
+ Similar to how other dynamic content is used.
+Environment variables consist of two parts definition and current value
+Name fields, remember that the name should clarify purpose and be unique.
+
+After you've defined variables in an environment, the available environment variables will be selectable from the Dynamic content pane.
+You can also use the parameters expression to get the value. For example, parameters('contoso_ErrorNotificationEmail') would retrieve the same value.
+
+Managed vs Unmanaged Solutions
+For the Export as option, we recommend that you do the export twice, once for managed and once for unmanaged.
+IMPORTANT!!! Make sure that you have an unmanaged copy exported when you export a managed solution.
+
+Use unmanaged solutions in development environments while you make changes to your cloud flows and other solution components.
+Use managed solutions when you're deploying to an environment that isn't a development environment for that solution.
+The type of solution is determined by choice when you export, and it becomes active when the exported solution is imported into another environment.
+
+You can use the unmanaged solution if you needed to re-create your development environment.
+For that reason, make sure that you always have an exported, unmanaged solution.
+When you import into the test env, the managed version of the solution file will be used.
+ After test is successful, the same managed version will be imported into production.
+
+The key point is that any change to a solution component is only done in the development environment.
+ To help enforce that notion, you can't directly change a managed solution component, which helps prevent accidental changes.
+
+You can add email templates to solutions.

@@ -1,10 +1,17 @@
 
-The prefix used in a field name is determined by the publisher associated with a solution
-The publisher must be created before the solution.
-You should use a managed solution when the components within the solution will be used as a third-party component in other environments.
 Power Apps Studio is used for creating and modifying apps, but not to export them.
 To configure Dataverse for Teams table security for user access across the wider company, the user must have the Teams owner role for the team.
 A dataflow is used to import data into Dataverse and has native capabilities to send failure notifications.
+
+
+Solutions
+You can add email templates to solutions.
+Data map templates are used within an environment for importing data but are not held within solutions.
+Word templates and Excel templates must be uploaded to each environment and cannot be held within a solution.
+The prefix used in a field name is determined by the publisher associated with a solution
+The publisher must be created before the solution.
+You should use a managed solution when the components within the solution will be used as a third-party component in other environments.
+
 
 Securty role
 The system customizer role allows users to create apps within the environment.

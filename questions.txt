@@ -159,3 +159,12 @@ Empty
 
 q50 You need to update the components in a solution by using merge behavior.
 Model-driven app
+
+q51 New leads added to the file the previous day must be loaded into a Microsoft Dataverse table daily.
+  Edit the file each day to remove leads already in Dataverse, and then refresh manually.
+
+q52 The business rule must set a value to true in a column named Do not allow emails if no value is provided in the Email column on the form.
+The Do not allow emails column must be referenced on the form.
+
+q53. You are building a Microsoft Power Virtual Agents chatbot inside Dataverse for Microsoft Teams.
+Submit the chatbot for Microsoft Teams admin approval.

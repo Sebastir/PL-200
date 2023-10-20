@@ -5,3 +5,37 @@ A table with which the business process flow will be associated.
 Guidelines for business process flows that have branches
 - A process can span a maximum of five unique entities.
 - You can use a maximum of 30 stages per process and a maximum of 30 steps per stage.
+
+Buttons
+ - An app-based virtual button with a flow with no user input (Running Late communication to manager)
+ - An app-based virtual button with a flow with user input or trigger tokens (alert maintenance work)
+ - A physical button (Flic or Bttn)
+
+- Record Appointment Time
+- Record Travel Time
+Flic- app https://learn.microsoft.com/en-us/training/modules/physical-input-button/2-flic-app
+
+- sends sms message for your next appointment Unit 6 (https://learn.microsoft.com/en-us/training/modules/physical-input-button/2-flic-app)
+Twilio Integration https://www.microsoft.com/en-us/videoplayer/embed/RE4qI4N?postJsllMsg=true
+
+- Use the Flic button to block your Outlook calendar for an hour
+
+Develop on Mobile version.
+Require Power Automate on App Store
+
+When you run a flow from a smartphone, this data is automatically added:
+ - the date
+ - time
+ - the current address
+ - City
+ - Email
+ - User
+
+ Flows Ideas
+ Reporting Damage Equipment --> https://learn.microsoft.com/en-us/training/modules/button-user-input/2-input-types
+ Create task to Outlook --> https://learn.microsoft.com/en-us/training/modules/button-user-input/5-exercise
+
+Sharing Flows
+- Send a copy is the best approach to sharing when you have a cloud flow that would help others but needs personalization.
+
+For flows that frequently change, a single shared flow works bette (co-ownership or run-only access)
