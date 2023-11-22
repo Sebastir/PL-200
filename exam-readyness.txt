@@ -96,3 +96,60 @@ Defines how users move between tables (system admin / )
 Area
 Group
 Sub-area
+
+Business Rules
+ The business rule will run whatever way that data was added or edited in the table. Server-side (logic run on servers)
+ Components
+ Condition: trigger, it determines true or false
+ Action: setting a column to a certain value,
+ Scope:  Table, All forms, Specific form
+
+ Rollup Columns
+ Rollup columns perform aggregate calculations on values that are stored in a column in a related table across a one-to-many relationship.
+ Rollup columns can calculate sum, count, minimum, maximum, and average values
+ Rollup calculations run once an hour by default,
+Settings > Customizations > Customize the System > Components > Entities in the Solution Explorer window and updating the settings for when the rollup occurs.
+
+Support Column Type
+Whole Number
+Decime Number
+Currency
+Date Time
+
+Calculated Columns
+A calculated column lets you define a calculation formula that is run by Microsoft Dataverse regardless of the form that is used to edit or add data.
+-  calculations run in real time when the row is saved.
+Expression Supported
+
+ADDHOURS
+ADDDAYS
+ADDWEEKS
+ADDMONTHS
+ADDYEARS
+
+SUBTRACTHOURS
+SUBTRACTDAYS
+SUBTRACTWEEKS
+SUBTRACTMONTHS
+SUBTRACTYEARS
+
+DIFFINDAYS
+DIFFINHOURS
+DIFFINMINUTES
+DIFFINMONTHS
+DIFFINWEEKS
+DIFFINYEARS
+
+CONCAT
+
+TRIMLEFT
+TRIMRIGHT
+
+Supported Column Types
+  Text
+  Option Set
+  Two Options
+  Whole Number
+  Decimal Number
+  Currency
+  Date Time
