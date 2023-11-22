@@ -17,7 +17,6 @@ Securty role
 The system customizer role allows users to create apps within the environment.
 The service writer role gives full permissions on all tables.
 The office collaborator role gives read permission to tables in which a record from these tables is shared with the organization.
-The office collaborator role gives read permission to tables in which a record from these tables is shared with the organization.
 
 Business Rules
 Setting the scope to Entity enforces this behavior within the canvas app as well as any model-driven apps
@@ -25,10 +24,10 @@ Cascade User Owned updates records at both primary and related levels to the new
 
 Business Process
 Action Step can be used to execute an action or workflow on demand.
- Each stage contains a group of steps.
-  The exact step that can be used to trigger a workflow is the Action step.
-   The branching condition can be formed from multiple logical expressions that use a combination of AND/OR operators.
-    It cannot be used to trigger a workflow. Data Step inside a stage can be used to make a step required.
+Each stage contains a group of steps.
+The exact step that can be used to trigger a workflow is the Action step.
+The branching condition can be formed from multiple logical expressions that use a combination of AND/OR operators.
+It cannot be used to trigger a workflow. Data Step inside a stage can be used to make a step required.
 
 Relationship
 The cascade relationship behavior will assure that all related rows are removed when the parent row is removed.

@@ -1,0 +1,98 @@
+Tables Type (indicates how these data came to the env)
+  - Standard
+  - Managed (table has been imported / are not customizable)
+  - Custom (imported from unmanaged solution, created from scratch )
+    - Standard (out-of-the-box )
+    - Activity (activities are tasks that you or your teams perform when they contact customers, cannot be owned by orga)
+    - Virtual (contain data from external data sources)
+
+Ownership Types
+ - User or team (controlled by User / team level)
+ - organization (access to data controlled by Orga)
+ - Business Unit ()
+ - None
+
+ Table Relationship to define formal relationship (Opportunities / Competitor) 1N Relationship.
+  Relantionship allows for retrieving query of related metadata
+ Table Connection Roles, less formal relationship which do not need reporting but is always good to know  (contact are married)
+
+1-N relationship (Parent-child)
+N-N relationship (peer-peer)
+
+Steps to Create Connections Roles
+- Enable Connections in advanced Setting
+- Create Connections roles
+- Add Connection Roles to an existing solution
+
+Relationship Behavior
+- Referential Remove Link (Any action happen in one table will not affect the second)
+- Referential Restrict (The parent record cannot be deleted while the child exists)
+- Parental
+  - Cascade Active
+  - Cascade All
+  - Cascade None
+  - Cascade User Owned (when)
+
+Create and Configure a view in Dataverse
+
+- Sign in to Power Apps
+- Expand DATA, select Tables
+- Select the table associate with the data you want to view
+- Select Views on the menu at the top
+- Select Add View on the top Menu
+- Provide Name and Describe. hit Create button
+- Select the columns and the desired sort and filtering options. Save > Publish
+
+Create Column Security
+
+- Enable column security in 1 or more column of a Table
+- Create and configure Profiles
+- Associate 1 or more existing security profiles to grant access to specific users
+
+
+Model-driven App
+
+Form Type:
+- Main
+- Quick View
+- Quick Create
+- Card
+
+Form Structure
+- Header
+- Body
+  - Tabs
+  - Sections
+
+
+  - You can create more than 1 - Quick Create, but only the first one will be available for end users.
+  - You can set up a specific Form order, when using multiple forms
+
+  Configure Grids
+  Grids are special controls for editing select columns from a view
+
+  Form Components
+  1. Grid controls
+    Read-only subgrid
+    Editable grid (rich inline editing records)
+    Power App grid control
+  2. Display controls
+    IFrame (integrate content from another website)
+    Quick view (display data from a row)
+    Timeline control  ()
+  3. Input Controls
+    Checkbox
+    Number input
+    Option set
+
+
+Personal View (own individual unless they are shared)
+System View (system admin / system customizer can edit)
+Public view (general purposes)
+
+Site Map
+Defines how users move between tables (system admin / )
+
+Area
+Group
+Sub-area
